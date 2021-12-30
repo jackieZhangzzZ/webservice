@@ -26,4 +26,5 @@
             <bean class="com.ws.service.impl.HelloServiceImpl"></bean>
         </jaxws:serviceBean>
     </jaxws:server>
+<!--    <jaxws:endpoint id="HelloService" implementor="com.ws.service.impl.HelloServiceImpl" address="/HelloService" />-->
 </beans>
